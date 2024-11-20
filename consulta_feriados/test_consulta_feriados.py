@@ -9,4 +9,9 @@ def test_nomes_unicos():
     assert len(nomes) == len(set(nomes)), "Existem nomes de feriados duplicados"  # Verifica se há nomes duplicados
 
 
+# Teste 2: Verificar se a resposta contém feriados em ordem cronológica
+def test_ordem_cronologica():
+    feriados = consulta_feriados(2024)
+    datas = [feriado['date'] for feriado in feriados]
+    assert datas == sorted(datas), "Os feriados não estão em ordem cronológica"  # Verifica se as datas estão ordenadas
 
