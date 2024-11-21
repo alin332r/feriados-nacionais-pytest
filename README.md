@@ -33,7 +33,7 @@ Aqui está um exemplo de como fazer uma requisição para o endpoint de feriados
 
 ` GET `"https://brasilapi.com.br/api/feriados/v1/2024"
 
-### RespostaS esperadaS:
+### Respostas esperadas:
 
 <pre>
 <code>
